@@ -1,0 +1,33 @@
+# Ocean Drive — Alacritty colors. Generated; do not edit by hand.
+[colors.primary]
+background = "#1a0f24"
+foreground = "#ffe9dc"
+
+[colors.cursor]
+text = "#1a0f24"
+cursor = "#ff8a3d"
+
+[colors.selection]
+text = "#ffffff"
+background = "#4a1f3d"
+
+[colors.normal]
+black = "#3a2446"
+red = "#ff5c7a"
+green = "#8ee6a6"
+yellow = "#ffc85a"
+blue = "#8aa8ff"
+magenta = "#e07bff"
+cyan = "#62e3dc"
+white = "#eed7cf"
+
+[colors.bright]
+black = "#a98aa6"
+red = "#ff8aa0"
+green = "#b2f2c4"
+yellow = "#ffdc8f"
+blue = "#b3c6ff"
+magenta = "#eeaaff"
+cyan = "#9cf0eb"
+white = "#ffffff"
+

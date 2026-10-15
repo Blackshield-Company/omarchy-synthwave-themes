@@ -1,0 +1,37 @@
+# Neon Horizon — Omarchy palette. Generated from palettes/neon-horizon.toml; do not edit by hand.
+# Omarchy (4.0 format) renders terminal, Hyprland, btop and shell configs from these keys.
+
+mode = "dark"
+
+accent = "#ff4fc4"
+selection = "#3b1d5e"
+muted = "#9a8cc4"
+
+background = "#0f0b1f"
+dark_background = "#0b0818"
+darker_background = "#070511"
+lighter_background = "#1c1535"
+
+foreground = "#f1e9ff"
+dark_foreground = "#9a8cc4"
+light_foreground = "#f7f2ff"
+bright_foreground = "#ffffff"
+
+hyprland_active_border = "rgba(ff4fc4ee) rgba(36f9f6ee) 45deg"
+hyprland_inactive_border = "rgba(9a8cc455)"
+
+red = "#ff4f7b"
+yellow = "#fede5d"
+orange = "#ff9e4f"
+green = "#72f1b8"
+cyan = "#36f9f6"
+blue = "#4fb3ff"
+magenta = "#ff6ad5"
+brown = "#c98a5a"
+
+bright_red = "#ff7a9c"
+bright_yellow = "#fff08a"
+bright_green = "#9df7cf"
+bright_cyan = "#8afcfa"
+bright_blue = "#8ccfff"
+bright_magenta = "#ff9ae3"

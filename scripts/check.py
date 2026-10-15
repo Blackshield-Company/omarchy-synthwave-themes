@@ -45,7 +45,7 @@ def image_size(p: Path):
 
 def check_palette(pal, path):
     c, meta = pal.get("colors", {}), pal.get("meta", {})
-    for k in ("name", "slug", "icons", "nvim_base", "art"):
+    for k in ("name", "slug", "icons", "nvim_base", "wallpaper"):
         if k not in meta:
             err(f"{path.name}: meta.{k} missing")
     if meta.get("slug") != path.stem:

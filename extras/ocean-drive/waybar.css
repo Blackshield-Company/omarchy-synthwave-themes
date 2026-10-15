@@ -1,0 +1,53 @@
+/* Ocean Drive — Waybar neon accents. Generated; do not edit by hand. */
+@define-color background #1a0f24;
+@define-color foreground #ffe9dc;
+@define-color accent #ff8a3d;
+@define-color glow #62e3dc;
+@define-color muted #a98aa6;
+@define-color urgent #ff5c7a;
+
+* {
+  background-color: @background;
+  color: @foreground;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  border-bottom: 2px solid @accent;
+}
+
+#workspaces button {
+  color: @muted;
+  padding: 0 6px;
+}
+
+#workspaces button.active {
+  color: @accent;
+  border-bottom: 2px solid @glow;
+  text-shadow: 0 0 6px @accent;
+}
+
+#workspaces button.urgent {
+  color: @urgent;
+}
+
+#clock {
+  color: @glow;
+  text-shadow: 0 0 6px @glow;
+}
+
+#cpu, #memory, #battery, #network, #pulseaudio, #bluetooth {
+  color: @foreground;
+  padding: 0 8px;
+}
+
+#battery.critical, #custom-update {
+  color: @urgent;
+}
+
+tooltip {
+  background-color: @background;
+  border: 1px solid @accent;
+}
