@@ -1,0 +1,33 @@
+# Neon Contract — Alacritty colors. Generated; do not edit by hand.
+[colors.primary]
+background = "#0f0b1f"
+foreground = "#f1e9ff"
+
+[colors.cursor]
+text = "#0f0b1f"
+cursor = "#ff4fc4"
+
+[colors.selection]
+text = "#ffffff"
+background = "#3b1d5e"
+
+[colors.normal]
+black = "#2a2147"
+red = "#ff4f7b"
+green = "#72f1b8"
+yellow = "#fede5d"
+blue = "#4fb3ff"
+magenta = "#ff6ad5"
+cyan = "#36f9f6"
+white = "#d9cff0"
+
+[colors.bright]
+black = "#9a8cc4"
+red = "#ff7a9c"
+green = "#9df7cf"
+yellow = "#fff08a"
+blue = "#8ccfff"
+magenta = "#ff9ae3"
+cyan = "#8afcfa"
+white = "#ffffff"
+

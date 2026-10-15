@@ -1,0 +1,13 @@
+# Chrome Knight — full [lock] replacement. Generated; do not edit by hand.
+background       = "#050912"
+background-alpha = 0.86
+text             = "#dfe8f5"
+placeholder      = "#8b9bb8"
+text-error       = "#ff5f7e"
+border           = "#8b9bb8"
+border-active    = "#22e3ff"
+border-error     = "#ff5f7e"
+border-alpha     = 1.0
+border-width     = 2
+selection        = "#22e3ff"
+selection-alpha  = 0.45

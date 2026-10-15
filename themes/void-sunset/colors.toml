@@ -1,0 +1,37 @@
+# Void Sunset — Omarchy palette. Generated from palettes/void-sunset.toml; do not edit by hand.
+# Omarchy (4.0 format) renders terminal, Hyprland, btop and shell configs from these keys.
+
+mode = "dark"
+
+accent = "#ff8a3d"
+selection = "#4a1f3d"
+muted = "#a98aa6"
+
+background = "#1a0f24"
+dark_background = "#150b1e"
+darker_background = "#0e0714"
+lighter_background = "#2a1836"
+
+foreground = "#ffe9dc"
+dark_foreground = "#a98aa6"
+light_foreground = "#fff3ea"
+bright_foreground = "#ffffff"
+
+hyprland_active_border = "rgba(ff8a3dee) rgba(ff3f8eee) 90deg"
+hyprland_inactive_border = "rgba(a98aa655)"
+
+red = "#ff5c7a"
+yellow = "#ffc85a"
+orange = "#ff8a3d"
+green = "#8ee6a6"
+cyan = "#62e3dc"
+blue = "#8aa8ff"
+magenta = "#e07bff"
+brown = "#c9875f"
+
+bright_red = "#ff8aa0"
+bright_yellow = "#ffdc8f"
+bright_green = "#b2f2c4"
+bright_cyan = "#9cf0eb"
+bright_blue = "#b3c6ff"
+bright_magenta = "#eeaaff"

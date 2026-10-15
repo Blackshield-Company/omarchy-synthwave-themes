@@ -1,0 +1,19 @@
+# {{ meta.name }} — Alacritty colors. Generated; do not edit by hand.
+[colors.primary]
+background = "{{ c.background }}"
+foreground = "{{ c.foreground }}"
+
+[colors.cursor]
+text = "{{ c.background }}"
+cursor = "{{ c.accent }}"
+
+[colors.selection]
+text = "{{ c.bright_foreground }}"
+background = "{{ c.selection }}"
+
+[colors.normal]
+{% for n in ansi_names %}{{ n }} = "{{ c[n] }}"
+{% endfor %}
+[colors.bright]
+{% for n in ansi_names %}{{ n }} = "{{ c['bright_' + n] }}"
+{% endfor %}

@@ -1,0 +1,16 @@
+# {{ meta.name }} — Kitty colors. Generated; do not edit by hand.
+foreground {{ c.foreground }}
+background {{ c.background }}
+selection_foreground {{ c.bright_foreground }}
+selection_background {{ c.selection }}
+cursor {{ c.accent }}
+cursor_text_color {{ c.background }}
+url_color {{ c.cyan }}
+active_border_color {{ c.accent }}
+inactive_border_color {{ c.muted }}
+active_tab_foreground {{ c.background }}
+active_tab_background {{ c.accent }}
+inactive_tab_foreground {{ c.foreground }}
+inactive_tab_background {{ c.lighter_background }}
+{% for i in range(16) %}color{{ i }} {{ ansi[i] }}
+{% endfor %}

@@ -1,0 +1,36 @@
+-- {{ meta.name }} for LazyVim. Generated; do not edit by hand.
+-- Uses tokyonight (bundled with Omarchy's LazyVim) with the palette overridden.
+return {
+  {
+    "folke/tokyonight.nvim",
+    priority = 1000,
+    opts = {
+      on_colors = function(c)
+        c.bg = "{{ c.background }}"
+        c.bg_dark = "{{ c.dark_background }}"
+        c.bg_float = "{{ c.dark_background }}"
+        c.bg_sidebar = "{{ c.dark_background }}"
+        c.bg_highlight = "{{ c.lighter_background }}"
+        c.bg_visual = "{{ c.selection }}"
+        c.fg = "{{ c.foreground }}"
+        c.fg_dark = "{{ c.white }}"
+        c.comment = "{{ c.muted }}"
+        c.red = "{{ c.red }}"
+        c.green = "{{ c.green }}"
+        c.yellow = "{{ c.yellow }}"
+        c.blue = "{{ c.blue }}"
+        c.magenta = "{{ c.magenta }}"
+        c.purple = "{{ c.bright_magenta }}"
+        c.cyan = "{{ c.cyan }}"
+        c.orange = "{{ c.orange }}"
+        c.border_highlight = "{{ c.accent }}"
+      end,
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "{{ meta.nvim_base }}",
+    },
+  },
+}

@@ -1,0 +1,53 @@
+/* Neon Contract — Waybar neon accents. Generated; do not edit by hand. */
+@define-color background #0f0b1f;
+@define-color foreground #f1e9ff;
+@define-color accent #ff4fc4;
+@define-color glow #36f9f6;
+@define-color muted #9a8cc4;
+@define-color urgent #ff4f7b;
+
+* {
+  background-color: @background;
+  color: @foreground;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  border-bottom: 2px solid @accent;
+}
+
+#workspaces button {
+  color: @muted;
+  padding: 0 6px;
+}
+
+#workspaces button.active {
+  color: @accent;
+  border-bottom: 2px solid @glow;
+  text-shadow: 0 0 6px @accent;
+}
+
+#workspaces button.urgent {
+  color: @urgent;
+}
+
+#clock {
+  color: @glow;
+  text-shadow: 0 0 6px @glow;
+}
+
+#cpu, #memory, #battery, #network, #pulseaudio, #bluetooth {
+  color: @foreground;
+  padding: 0 8px;
+}
+
+#battery.critical, #custom-update {
+  color: @urgent;
+}
+
+tooltip {
+  background-color: @background;
+  border: 1px solid @accent;
+}

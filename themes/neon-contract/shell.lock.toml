@@ -1,0 +1,13 @@
+# Neon Contract — full [lock] replacement. Generated; do not edit by hand.
+background       = "#070511"
+background-alpha = 0.86
+text             = "#f1e9ff"
+placeholder      = "#9a8cc4"
+text-error       = "#ff4f7b"
+border           = "#9a8cc4"
+border-active    = "#ff4fc4"
+border-error     = "#ff4f7b"
+border-alpha     = 1.0
+border-width     = 2
+selection        = "#ff4fc4"
+selection-alpha  = 0.45

@@ -1,0 +1,9 @@
+# {{ meta.name }} — Ghostty colors. Generated; do not edit by hand.
+background = {{ c.background }}
+foreground = {{ c.foreground }}
+cursor-color = {{ c.accent }}
+cursor-text = {{ c.background }}
+selection-background = {{ c.selection }}
+selection-foreground = {{ c.bright_foreground }}
+{% for i in range(16) %}palette = {{ i }}={{ ansi[i] }}
+{% endfor %}
