@@ -55,19 +55,19 @@ class Installer(unittest.TestCase):
 
     def test_theme_install_with_resolution(self):
         with tempfile.TemporaryDirectory() as tmp:
-            r = self.run_install("theme", "neon-contract", "--res", "3440x1440",
+            r = self.run_install("theme", "neon-horizon", "--res", "3440x1440",
                                  env_extra={"OMARCHY_THEMES_DIR": tmp})
             self.assertEqual(r.returncode, 0, r.stderr)
-            dest = Path(tmp) / "neon-contract"
+            dest = Path(tmp) / "neon-horizon"
             self.assertTrue((dest / "colors.toml").is_file())
             self.assertEqual(sorted(x.name for x in (dest / "backgrounds").iterdir()),
-                             sorted(x.name for x in (ROOT / "wallpapers/neon-contract/3440x1440").iterdir()))
+                             sorted(x.name for x in (ROOT / "wallpapers/neon-horizon/3440x1440").iterdir()))
 
     def test_extras_install(self):
         with tempfile.TemporaryDirectory() as tmp:
-            r = self.run_install("extras", "void-sunset", env_extra={"SYNTHWAVE_EXTRAS_DIR": tmp})
+            r = self.run_install("extras", "ocean-drive", env_extra={"SYNTHWAVE_EXTRAS_DIR": tmp})
             self.assertEqual(r.returncode, 0, r.stderr)
-            self.assertTrue((Path(tmp) / "void-sunset/waybar.css").is_file())
+            self.assertTrue((Path(tmp) / "ocean-drive/waybar.css").is_file())
 
     def test_rejects_bad_names(self):
         for bad in ("../etc", "nope", ""):
